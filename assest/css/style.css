@@ -8,9 +8,10 @@
 .app__header::before {
     content: '';
     width: 100%;
+    top: 52px;
     position: absolute;
     height: 720px;
-    background: url(../img/home-header.png) no-repeat 50% 52px;
+    background: url(../img/home-header.png) no-repeat 50% 0px;
 }
 
 .header-navbar {
@@ -255,6 +256,8 @@
     font-size: 1.7rem;
     color: #775545;
     background-color: #fff;
+    z-index: 2;
+    cursor: pointer;
 }
 
 #slider__return {
