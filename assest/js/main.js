@@ -3,7 +3,7 @@ var returnImg = document.getElementById('slider__return')
 
 var i = 0;
 nextImg.addEventListener('click', function() {
-    var imgs = ['../img/4-IMG_104221-680x460-594x427.jpg', '../img/4-IMG_104221-680x460-300x160.jpg', '../img/photodune-903822-meal-s-300x160.jpg'];
+    var imgs = ['./assest/img/4-IMG_104221-680x460-594x427.jpg', './assest/img/4-IMG_104221-680x460-300x160.jpg', './assest/img/photodune-903822-meal-s-300x160.jpg'];
     i++
 
     function changeImg() {
@@ -17,7 +17,7 @@ nextImg.addEventListener('click', function() {
     changeImg();
 });
 returnImg.addEventListener('click', function() {
-    var imgs = ['../img/4-IMG_104221-680x460-594x427.jpg', '../img/4-IMG_104221-680x460-300x160.jpg', '../img/photodune-903822-meal-s-300x160.jpg'];
+    var imgs = ['./assest/img/4-IMG_104221-680x460-594x427.jpg', './assest/img/4-IMG_104221-680x460-300x160.jpg', './assest/img/photodune-903822-meal-s-300x160.jpg'];
     i--;
 
     function changeImg() {
