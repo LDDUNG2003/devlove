@@ -1,0 +1,32 @@
+CREATE DATABASE quanLiHangHoa
+go
+use quanLiHangHoa
+CREATE TABLE account
+(
+	email VARCHAR PRIMARY KEY NOT NULL,
+	nameLogin VARCHAR NOT NULL,
+	fullName NVARCHAR NOT NULL,
+	age	INT NOT NULL,
+	passwords NVARCHAR NOT NULL,
+	addres NVARCHAR NOT NULL,
+)
+CREATE TABLE shop
+(
+	id INT PRIMARY KEY NOT NULL,
+	shopName NVARCHAR NOT NULL,
+	addres NVARCHAR NOT NULL,
+	listNum INT NOT NULL,
+)
+CREATE TABLE product
+(
+	productName NVARCHAR PRIMARY KEY NOT NULL,
+	price INT NOT NULL,
+	shopName NVARCHAR NOT NULL
+)
+CREATE TABLE orders
+(
+	id INT PRIMARY KEY NOT NULL,
+	productName NVARCHAR NOT NULL,
+	price INT NOT NULL,
+	amount INT NOT NULL,
+)
